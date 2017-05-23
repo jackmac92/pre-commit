@@ -1,0 +1,19 @@
+- id: forbid_describe_only
+  name: Testing execution
+  entry: describe.only
+  language: pcre
+  files: \.js$
+
+- id: eslint
+  name: eslint
+  entry: eslint
+  language: node
+  files: \.js$
+  additional_dependencies: ['eslint@3.18.0']
+  minimum_pre_commit_version: 0.7.0
+
+- id: docker_test
+  name: how does this shit work
+  entry: insert_shebang
+  language: docker
+  files: *
