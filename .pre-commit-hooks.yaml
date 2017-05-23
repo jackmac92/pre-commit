@@ -16,4 +16,4 @@
   name: how does this shit work
   entry: insert_shebang
   language: docker
-  files: *
+  files: \.js$
