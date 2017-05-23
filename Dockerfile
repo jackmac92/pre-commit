@@ -1,8 +1,8 @@
 FROM ubuntu:xenial
 
-ADD insert_shebang /
+ADD test.sh /
 
-RUN chmod +x insert_shebang
+RUN chmod +x test.sh
 
-RUN mv /insert_shebang /bin
+RUN mv /test.sh /bin
 
