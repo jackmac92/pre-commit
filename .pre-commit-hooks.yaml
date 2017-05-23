@@ -14,6 +14,6 @@
 
 - id: docker_test
   name: how does this shit work
-  entry: test
+  entry: do_it_to_it
   language: docker
   files: \.js$

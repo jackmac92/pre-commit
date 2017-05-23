@@ -1,8 +1,8 @@
 FROM ubuntu:xenial
 
-ADD test.sh /
+ADD test.sh /do_it_to_it.sh
 
-RUN chmod +x test.sh
+RUN chmod +x do_it_to_it.sh
 
-RUN mv /test.sh /bin
+RUN mv /do_it_to_it.sh /bin/do_it_to_it
 
