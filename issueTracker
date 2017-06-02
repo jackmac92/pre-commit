@@ -1,0 +1,106 @@
+To track this issue
+
+https://github.com/FormidableLabs/victory/issues/495
+
+use this GET request
+https://api.github.com/repos/FormidableLabs/victory/issues/495
+
+use "state" in the response
+{
+  "url": "https://api.github.com/repos/FormidableLabs/victory/issues/495",
+  "repository_url": "https://api.github.com/repos/FormidableLabs/victory",
+  "labels_url": "https://api.github.com/repos/FormidableLabs/victory/issues/495/labels{/name}",
+  "comments_url": "https://api.github.com/repos/FormidableLabs/victory/issues/495/comments",
+  "events_url": "https://api.github.com/repos/FormidableLabs/victory/issues/495/events",
+  "html_url": "https://github.com/FormidableLabs/victory/issues/495",
+  "id": 208665506,
+  "number": 495,
+  "title": "getting warning when using scale=\"time\" on VictoryAxis",
+  "user": {
+    "login": "chrisdrackett",
+    "id": 4378,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4378?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chrisdrackett",
+    "html_url": "https://github.com/chrisdrackett",
+    "followers_url": "https://api.github.com/users/chrisdrackett/followers",
+    "following_url": "https://api.github.com/users/chrisdrackett/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chrisdrackett/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chrisdrackett/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chrisdrackett/subscriptions",
+    "organizations_url": "https://api.github.com/users/chrisdrackett/orgs",
+    "repos_url": "https://api.github.com/users/chrisdrackett/repos",
+    "events_url": "https://api.github.com/users/chrisdrackett/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chrisdrackett/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "boygirl",
+    "id": 3719995,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3719995?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boygirl",
+    "html_url": "https://github.com/boygirl",
+    "followers_url": "https://api.github.com/users/boygirl/followers",
+    "following_url": "https://api.github.com/users/boygirl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boygirl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boygirl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boygirl/subscriptions",
+    "organizations_url": "https://api.github.com/users/boygirl/orgs",
+    "repos_url": "https://api.github.com/users/boygirl/repos",
+    "events_url": "https://api.github.com/users/boygirl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boygirl/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "boygirl",
+      "id": 3719995,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3719995?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/boygirl",
+      "html_url": "https://github.com/boygirl",
+      "followers_url": "https://api.github.com/users/boygirl/followers",
+      "following_url": "https://api.github.com/users/boygirl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/boygirl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/boygirl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/boygirl/subscriptions",
+      "organizations_url": "https://api.github.com/users/boygirl/orgs",
+      "repos_url": "https://api.github.com/users/boygirl/repos",
+      "events_url": "https://api.github.com/users/boygirl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/boygirl/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": 0,
+  "created_at": "2017-02-18T19:39:21Z",
+  "updated_at": "2017-02-27T21:52:38Z",
+  "closed_at": "2017-02-27T21:52:38Z",
+  "body": "`Warning: Failed prop type: `scale` in `VictoryAxis` must be a d3 scale.`\r\n\r\nhowever I'm trying to follow the victory docs where time looks to be one of the available values and is the example:\r\n\r\nhttp://formidable.com/open-source/victory/docs/victory-axis#scale\r\n",
+  "closed_by": {
+    "login": "boygirl",
+    "id": 3719995,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3719995?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boygirl",
+    "html_url": "https://github.com/boygirl",
+    "followers_url": "https://api.github.com/users/boygirl/followers",
+    "following_url": "https://api.github.com/users/boygirl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boygirl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boygirl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boygirl/subscriptions",
+    "organizations_url": "https://api.github.com/users/boygirl/orgs",
+    "repos_url": "https://api.github.com/users/boygirl/repos",
+    "events_url": "https://api.github.com/users/boygirl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boygirl/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
